@@ -8,6 +8,24 @@
 <body>
     <header>
     <h1>CloudFlix: Seu catálogo fictício de filmes</h1>
+    <style>
+        * {
+           font-family: Arial; 
+        }
+        p {
+            color: aqua;
+           font-family: Georgia;
+        }
+        .p1{
+            color: blueviolet;
+            text-align: center;
+            font-family: Verdana;
+        }
+        #p2 {
+            background-color: rgb(31, 27, 65);
+            font: bold;
+        }
+    </style>
     </header> 
     <nav>
         <b>Home</b>
@@ -17,10 +35,10 @@
     </nav>
     <main>
         <H2>Bem-vindos ao CloudFlix: Catálogo de Filmes</H2>
-        <P>
+        <P class="p1">
             O <STRONG>CloudFlix</STRONG> é um projeto de demonstração criado para ilustrar os conceitos fundamentais do desenvolvimento web. Pense nele como o seu cinema digital pessoal. Mas, em vez de simplesmente assistir aos filmes, você vai entender como ele funciona por dentro.
         </P>
-        <P>Neste projeto, você aprenderá sobre:</P>
+        <P id="p2" class="p1">Neste projeto, você aprenderá sobre:</P>
         <ul>
             <li>
                 Front-End: A parte visual do site, que você está vendo agora. Como os filmes são organizados e exibidos, usando HTML, CSS e JavaScript.
